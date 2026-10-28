@@ -7,15 +7,12 @@
 ```
 naive_bayes/
 ├── README.md                     # 本文件
-├── 朴素贝叶斯分类器.pdf          # 项目要求（本地文件，不纳入仓库）
-├── 朴素贝叶斯实验报告.docx        # 实验报告（本地文件，不纳入仓库）
 ├── bean_raw.csv                  # 原始连续数据（13611 条，含 partition 标记）
 ├── bean_train.csv                # 离散化训练集 1（9526 条）
 ├── bean_train_1000.csv           # 离散化训练集 2（1000 条，训练集 1 的子集）
 ├── bean_test.csv                 # 离散化测试集（4085 条）
 ├── experiment.py                 # 主实验代码
 ├── verify_model.py               # 离散朴素贝叶斯数值校验
-└── results/                      # 运行后生成的结果文件
 ```
 
 ## 环境要求
