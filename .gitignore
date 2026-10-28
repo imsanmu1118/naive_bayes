@@ -1,0 +1,13 @@
+# 报告与题目 PDF（仅本地保留）
+朴素贝叶斯实验报告.docx
+朴素贝叶斯分类器.pdf
+
+# 运行结果
+results/
+
+# 编辑器与缓存
+.vscode/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.DS_Store
