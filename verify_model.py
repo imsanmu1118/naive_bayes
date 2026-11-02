@@ -1,4 +1,3 @@
-"""DiscreteNaiveBayes 数值校验。"""
 import numpy as np
 from sklearn.naive_bayes import CategoricalNB
 
@@ -18,4 +17,4 @@ np.testing.assert_allclose(np.exp(m.log_prob_[1][0]), [3 / 7, 2 / 7, 1 / 7, 1 / 
 np.testing.assert_allclose(
     np.exp(DiscreteNaiveBayes([2, 4], prior_alpha=1).fit(X, y).log_prior_), [4 / 6, 2 / 6])
 
-print('PASS: 与 CategoricalNB 一致，平滑和先验正确。')
+print('PASS，平滑和先验正确。')
